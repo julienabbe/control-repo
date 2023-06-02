@@ -1,6 +1,6 @@
 forge 'https://forge.puppet.com'
 
-mod 'dsc/psmodulesdsc', '1.0.13'
+mod 'dsc/psmodulesdsc', '1.0.13-0-0'
 mod 'jriviere/windows_services', '0.0.4'
 mod 'puppet/alternatives', '4.1.0'
 mod 'puppet/windows_firewall', '4.1.0'
