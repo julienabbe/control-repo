@@ -22,13 +22,14 @@ mod 'puppetlabs/powershell','4.1.0'
 mod 'puppetlabs/pwshlib','0.10.1'
 mod 'puppetlabs/reboot','2.4.0'
 mod 'puppetlabs/registry','3.2.0'
-mod 'puppetlabs/resource_api','1.1.0'
+#mod 'puppetlabs/resource_api','1.1.0'
 mod 'puppetlabs/scheduled_task','2.0.1'
 mod 'puppetlabs/sshkeys_core','2.3.0'
 mod 'puppetlabs/stdlib',  '6.6.0'
-mod 'puppetlabs/translate','2.2.0'
+#mod 'puppetlabs/translate','2.2.0'
 mod 'puppetlabs/yumrepo_core','1.1.0'
-mod 'zleslie/ldapquery','0.5.1'
+#mod 'zleslie/ldapquery','0.5.1'
+mod 'puppet/ldapquery','3.0.0'
 
 # Modules from Git
 mod 'apache',
