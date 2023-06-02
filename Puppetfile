@@ -29,6 +29,9 @@ mod 'puppetlabs/stdlib',  '9.0.0'
 mod 'puppetlabs/yumrepo_core','1.1.0'
 #mod 'zleslie/ldapquery','0.5.1'
 mod 'puppet/ldapquery','3.0.0'
+mod 'puppet-windows_firewall', '4.1.0'
+
+
 
 # Modules from Git
 mod 'apache',
