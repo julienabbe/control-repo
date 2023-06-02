@@ -33,7 +33,7 @@ mod 'zleslie/ldapquery','0.5.1'
 # Modules from Git
 mod 'apache',
   git: 'https://github.com/puppetlabs/puppetlabs-apache',
-  ref: '10.0.0'
+  ref: 'v10.0.0'
 
 
 
