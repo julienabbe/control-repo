@@ -1,17 +1,43 @@
 forge 'https://forge.puppet.com'
 
-# Modules from the Puppet Forge
-# Versions should be updated to be the latest at the time you start
-#mod 'puppetlabs/inifile', '5.0.1'
-#mod 'puppetlabs/stdlib',  '7.0.1'
-#mod 'puppetlabs/concat',  '7.0.1'
+mod 'dsc/psmodulesdsc', '1.0.13'
+mod 'jriviere/windows_services', '0.0.4'
+mod 'puppet/alternatives', '4.1.0'
+mod 'puppet/windows_firewall', '4.1.0'
+mod 'puppetlabs/acl','4.1.0'
+mod 'puppetlabs/apt','7.7.1'
+mod 'puppetlabs/augeas_core','1.2.0'
+mod 'puppetlabs/chocolatey','5.1.1'
+mod 'puppetlabs/concat',  '6.4.0'
+mod 'puppetlabs/cron_core','1.1.0'
+mod 'puppetlabs/host_core','1.1.0'
+mod 'puppetlabs/iis','4.5.1'
+mod 'puppetlabs/inifile', '4.4.0'
+mod 'puppetlabs/lvm','1.4.0'
+mod 'puppetlabs/mailalias_core','1.1.0'
+mod 'puppetlabs/mount_core','1.0.4'
+mod 'puppetlabs/mount_providers','2.0.1'
+mod 'puppetlabs/mysql','10.9.1'
+mod 'puppetlabs/powershell','4.1.0'
+mod 'puppetlabs/pwshlib','0.10.1'
+mod 'puppetlabs/reboot','2.4.0'
+mod 'puppetlabs/registry','3.2.0'
+mod 'puppetlabs/resource_api','1.1.0'
+mod 'puppetlabs/scheduled_task','2.0.1'
+mod 'puppetlabs/sshkeys_core','2.3.0'
+mod 'puppetlabs/stdlib',  '6.6.0'
+mod 'puppetlabs/translate','2.2.0'
+mod 'puppetlabs/yumrepo_core','1.1.0'
+mod 'zleslie/ldapquery','0.5.1'
 
 # Modules from Git
-# Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
-#mod 'apache',
-#  git:    'https://github.com/puppetlabs/puppetlabs-apache',
-#  commit: '1b6f89afdde0df7f9433a163d5c4b5328eac5779'
+mod 'apache',
+  git: 'https://github.com/puppetlabs/puppetlabs-apache',
+  ref: '10.0.0'
 
-#mod 'apache',
-#  git:    'https://github.com/puppetlabs/puppetlabs-apache',
-#  branch: 'docs_experiment'
+
+
+
+
+
+
