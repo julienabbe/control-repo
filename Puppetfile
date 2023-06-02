@@ -27,7 +27,7 @@ mod 'puppetlabs/stdlib',  '9.0.0'
 mod 'puppetlabs/yumrepo_core','1.2.0'
 mod 'puppet/ldapquery','3.0.0'
 
-# Modules from Git
+# Module depuis Git
 mod 'apache',
   git: 'https://github.com/puppetlabs/puppetlabs-apache',
   ref: 'v10.0.0'
