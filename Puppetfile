@@ -2,7 +2,7 @@ forge 'https://forge.puppet.com'
 
 mod 'dsc/psmodulesdsc', '1.0.13-0-0'
 mod 'puppet/alternatives', '4.2.0'
-mod 'puppet/windows_firewall', '4.1.0'
+#mod 'puppet/windows_firewall', '4.1.0'
 mod 'puppetlabs/acl','5.0.0'
 mod 'puppetlabs/apt','9.0.2'
 mod 'puppetlabs/augeas_core','1.3.0'
